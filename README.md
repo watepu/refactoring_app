@@ -1,19 +1,8 @@
 # README
 
-* Ruby version
+## 概要
+DIVER phase4 リファクタリングの練習用サンプル
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 開発環境
+* Ruby 2.5.0
+* Rails 5.1.6
