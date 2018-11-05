@@ -13,7 +13,7 @@ class ContentCleanupService
     attr_reader :blog, :content
 
     def full_to_half
-      @content = @content.tr('0-9a-zA-Z').gsub!(//,'')
+      @content = @content.tr('０-９ａ-ｚＡ-Ｚ', '0-9a-zA-Z').gsub!(/　/, ' ')
       @blog.update(content: @content)
     end
 
